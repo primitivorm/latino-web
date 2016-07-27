@@ -1,5 +1,1 @@
-si ( 7 > 0 )
-  escribir("Es positivo")
-sino 
-  escribir("Es negativo")
-fin
+escribir("hola latino")
