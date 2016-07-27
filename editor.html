@@ -25,7 +25,7 @@ THE SOFTWARE.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Sample Project</title>
+    <title>latino en web</title>
     <!-- data-main attribute tells require.js to load
              scripts/main.js after require.js loads. -->
     <script src="scripts/require.js"></script>
@@ -77,22 +77,27 @@ THE SOFTWARE.
     </script>
     <style type="text/css">
         #editor {
+            font-family: Monaco,Consolas,Monospace;
+            font-size:12px;
             position: relative;
             width: 600px;
             height: 350px;
         }
         #resultado {
+            font-family: Monaco,Consolas,Monospace;
+            font-size:12px;
             position: relative;
             width: 600px;
             height: 200px;
-            color: #fff;
-            background-color: #000;
+            color: #000;
+            background-color: #fff;
+            border:1px solid #000;
         }
     </style>
 </head>
 
 <body>
-    <h3>Bienvenido Latino</h3>
+    <h3>Prueba tu codigo latino</h3>
     <form>
         <div id="editor">escribir("hola latino")</div>
         <input id="btnEjecutar" type="button" value="Ejecutar" onclick="fnEjecutar();">

@@ -27,6 +27,6 @@ THE SOFTWARE.
     $myfile = fopen("codigo.lat", "w") or die("No se pudo ejecutar el archivo!");
     fwrite($myfile, $codigo);
     fclose($myfile);
-    $output = `latino.exe codigo.lat`;
-    echo ">>" . $output;
+    $output = `./latino codigo.lat`;
+    echo $output;
 ?>
